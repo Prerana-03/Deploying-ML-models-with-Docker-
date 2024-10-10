@@ -1,6 +1,6 @@
 Step-by-Step Guide to Deploying ML Models with Docker 🐳
+![image](https://github.com/user-attachments/assets/d3fcb520-7554-4b6f-8ff6-631402a786c7)
 
-Copy
 # Deploying ML Models with Docker
 
 ## Introduction
