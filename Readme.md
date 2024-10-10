@@ -37,31 +37,30 @@ Prediction for [5.1, 3.5, 1.4, 0.2]: 0
 
 ➡️ Create a Docker Hub account and log in through the terminal:
 ```bash
+Copy
 docker login
+➡️ Tag the image:
 
+bash
 
- ➡️Tag the image:
-'''bash
- docker tag ml-model yourdockerhubusername/ml-model
+Copy
+docker tag ml-model yourdockerhubusername/ml-model
+➡️ Push the image:
 
+bash
 
-➡️Push the image:
-```bash
+Copy
 docker push yourdockerhubusername/ml-model
+Pull and Run the Docker Image
+➡️ Pull the image:
 
+bash
 
-➡️Pull and Run the Docker Image
-```bash
+Copy
 docker pull yourdockerhubusername/ml-model
+➡️ Run the image:
 
- ➡️Run the image:
-```bash
+bash
+
+Copy
 docker run yourdockerhubusername/ml-model
-
-
-Conclusion
-Using Docker for deploying machine learning models guarantees a consistent environment and set of dependencies across various platforms,
-making the deployment process smoother and more scalable. With Docker, model deployment is more straightforward, 
-and the need for complex environment setup is eliminated. 🚀
-
-
